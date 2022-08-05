@@ -1,0 +1,9 @@
+
+[ {
+    "model": "detourapi.doc",
+    "pk": 1,
+    "fields": {
+        "publicURL": "http://res.cloudinary.com/dyhlcvrqp/image/upload/v1655854987/v0m5nxbgcpkyklllun1h.jpg",
+        "user": 1
+    }
+}]

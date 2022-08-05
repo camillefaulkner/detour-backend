@@ -1,0 +1,86 @@
+[
+    {
+        "model": "detourapi.showdate",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "date": "2022-07-06",
+            "venue": "ryman auditorium",
+            "street_address": "116 5th Ave North",
+            "city": "nashville",
+            "state": "tn",
+            "essential_notes": "pick up tour laminate when you arrive for soundcheck",
+            "other": "WiFi Password: 123musicyall!"
+        }
+    },
+    {
+        "model": "detourapi.showdate",
+        "pk": 11,
+        "fields": {
+            "user": 1,
+            "date": "2022-07-11",
+            "venue": "moore theatre",
+            "street_address": "1932 2nd Ave",
+            "city": "seattle",
+            "state": "wa",
+            "essential_notes": "",
+            "other": ""
+        }
+    },
+    {
+        "model": "detourapi.showdate",
+        "pk": 12,
+        "fields": {
+            "user": 1,
+            "date": "2022-07-12",
+            "venue": "crystall ballroom",
+            "street_address": "1332 W Burnside St",
+            "city": "portland",
+            "state": "or",
+            "essential_notes": "",
+            "other": ""
+        }
+    },
+    {
+        "model": "detourapi.showdate",
+        "pk": 15,
+        "fields": {
+            "user": 1,
+            "date": "2022-07-08",
+            "venue": "brooklyn steel",
+            "street_address": "319 Frost St",
+            "city": "brooklyn",
+            "state": "ny",
+            "essential_notes": "",
+            "other": ""
+        }
+    },
+    {
+        "model": "detourapi.showdate",
+        "pk": 16,
+        "fields": {
+            "user": 1,
+            "date": "2022-07-07",
+            "venue": "the anthem",
+            "street_address": "901 Wharf St SW",
+            "city": "washington",
+            "state": "dc",
+            "essential_notes": "",
+            "other": ""
+        }
+    },
+    {
+        "model": "detourapi.showdate",
+        "pk": 17,
+        "fields": {
+            "user": 1,
+            "date": "2022-07-14",
+            "venue": "the wiltern",
+            "street_address": "3790 Wilshire Blvd",
+            "city": "los angeles",
+            "state": "ca",
+            "essential_notes": "please take all belongings off tour bus! :)",
+            "other": ""
+        }
+    }
+]

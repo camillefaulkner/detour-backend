@@ -1,0 +1,23 @@
+[
+    {
+        "model": "detourapi.status",
+        "pk": 1,
+        "fields": {
+            "status": "pending"
+        }
+    },
+    {
+        "model": "detourapi.status",
+        "pk": 2,
+        "fields": {
+            "status": "approved"
+        }
+    },
+    {
+        "model": "detourapi.status",
+        "pk": 3,
+        "fields": {
+            "status": "denied"
+        }
+    }
+]

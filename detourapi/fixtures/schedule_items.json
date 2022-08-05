@@ -1,0 +1,62 @@
+[
+    {
+        "model": "detourapi.scheduleitem",
+        "pk": 2,
+        "fields": {
+            "time": "14:00",
+            "description": "soundcheck",
+            "show_date": 1,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "detourapi.scheduleitem",
+        "pk": 3,
+        "fields": {
+            "time": "11:00",
+            "description": "band load in",
+            "show_date": 1,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "detourapi.scheduleitem",
+        "pk": 7,
+        "fields": {
+            "time": "19:00",
+            "description": "doors",
+            "show_date": 1,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "detourapi.scheduleitem",
+        "pk": 8,
+        "fields": {
+            "time": "18:00",
+            "description": "dinner",
+            "show_date": 1,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "detourapi.scheduleitem",
+        "pk": 9,
+        "fields": {
+            "time": "09:10",
+            "description": "crew load in",
+            "show_date": 17,
+            "user_id": 1
+        }
+    },
+    {
+        "model": "detourapi.scheduleitem",
+        "pk": 11,
+        "fields": {
+            "time": "14:10",
+            "description": "soundcheck",
+            "show_date": 17,
+            "user_id": 1
+        }
+    }
+]

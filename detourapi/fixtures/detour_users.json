@@ -1,0 +1,22 @@
+[
+    {
+        "model": "detourapi.detouruser",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "phone_number": "4040000000",
+            "allergies": "none",
+            "greenroom_requests": "green m&ms"
+        }
+    },
+    {
+        "model": "detourapi.detouruser",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "phone_number": "6150000000",
+            "allergies": "none",
+            "greenroom_requests": "puppies, no overhead lighting"
+        }
+    }
+]
