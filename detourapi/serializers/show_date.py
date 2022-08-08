@@ -7,5 +7,5 @@ class ShowDateSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = ShowDate
-        fields = ('id', 'date', 'venue', 'street_address', 'city', 'state','essential_notes', 'other', 'user_id', 'schedule_items', 'guest_requests', 'gr_requests')
+        fields = ('id', 'date', 'venue', 'street_address', 'city', 'state','essential_notes', 'other', 'user_id', 'schedule_items', 'guest_requests', 'gr_requests', 'docs')
         depth = 2

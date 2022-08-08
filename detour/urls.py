@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.conf.urls import include
 from django.urls import path
+from detourapi.data.data_collection import YELPView
 from detourapi.views.auth import register_user, login_user
 from rest_framework import routers
 from detourapi.views.doc import DocView
+from detourapi.views.docassign import DocAssignView
 from detourapi.views.greenroom_request import GreenRoomRequestView
 from detourapi.views.guest_request import GuestRequestView
 from detourapi.views.schedule_item import ScheduleItemView
@@ -28,10 +30,12 @@ from detourapi.views.user import UserView
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'showDates', ShowDateView, 'showdate')
 router.register(r'docs', DocView, 'doc')
+router.register(r'assignDocToShow', DocAssignView, 'docassign')
 router.register(r'greenRoomRequests', GreenRoomRequestView, 'greenroomrequest')
 router.register(r'guestRequests', GuestRequestView, 'guestrequest')
 router.register(r'scheduleItems', ScheduleItemView, 'scheduleitem')
 router.register(r'users', UserView, 'user')
+router.register(r'datacollection', YELPView, 'data')
 
 urlpatterns = [
 # Requests to http://localhost:8000/register will be routed to the register_user function
