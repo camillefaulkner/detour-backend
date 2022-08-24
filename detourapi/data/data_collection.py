@@ -1,9 +1,8 @@
 import os
+import requests
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
-import requests
 from rest_framework.decorators import action
-# from rest_framework import status
 
 
 class YELPView(ViewSet):
